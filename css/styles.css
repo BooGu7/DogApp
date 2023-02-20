@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* General */
+:root {
+    --color-basic: #fff;
+    --color-primary: #ff4c68;
+    --color-des: #8f8f8f;
+    --color-ins: #ef8172;
+}
+body {
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Montserrat';
+}
+/* Title section */
+#title {
+    background-color: var(--color-primary);
+}
+.big-heading {
+    text-align: left;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: var(--color-basic);
+}
+.container-fluid {
+    padding: 3% 15% 8%;
+}
+
+/* Navigation bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+/* Image */
+.title-image {
+    position: absolute;
+    right: 30%;
+    width: 60%;
+    transform: rotate(25deg);
+}
+/* Features */
+#features {
+    background-color: var(--color-basic);
+    position: relative;
+    z-index: 1;
+}
+.col-md-4 {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.col-md-4 h3 {
+    margin: 15px auto;
+    font-size: 1.5rem;
+}
+.col-md-4 p {
+    font-size: 1.5rem;
+    color: var(--color-des);
+}
+.fa-solid {
+    padding: 10px 0 auto;
+    color: var(--color-ins);
+}
+.fa-solid:hover {
+    opacity: 0.9;
+}
+/* Testimonials section */
+#testimonials {
+    background-color: var(--color-ins);
+    color: var(--color-basic);
+}
+#testimonials .carousel-item {
+    padding: 7% 15%;
+}
+.testimonial-text,
+.pricing-text {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+#testimonials .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* Press section */
+#press {
+    background-color: var(--color-ins);
+    padding-bottom: 3%;
+}
+#press .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+}
+.columm-pricing {
+    padding: 3% 2%;
+}
+/* CTA section */
+#cta {
+    background-color: var(--color-primary);
+    padding: 7% 15%;
+}
+#cta h3 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: var(--color-basic);
+}
+/* Footer section */
+#footer {
+    background-color: var(--color-basic);
+    margin: 8%;
+}
+#footer i {
+    margin: 12px;
+}
+#footer p {
+    color: var(--color-des);
+    font-size: 18px;
+}
+/* Media */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: unset;
+        transform: rotate(0);
+    }
+}
